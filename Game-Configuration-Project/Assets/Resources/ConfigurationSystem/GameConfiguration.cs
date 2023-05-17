@@ -15,6 +15,9 @@ namespace Game.Configuration
       _configurationSelector = Resources.Load<ConfigurationSelector>(configurationSelectorResourceName);
     }
 
+    // TODO: This is how to do it in 1 line of code
+    // public static GameConfiguration Instance2 { get; } = new GameConfiguration(MASTER_CONFIG_RESOURCE);
+    
     public static GameConfiguration Instance
     {
       get
